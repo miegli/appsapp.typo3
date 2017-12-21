@@ -5,6 +5,9 @@ call_user_func(
     function()
     {
 
+
+        $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['extbase']['commandControllers'][] = \Appsapp\Appsapp\Command\CompilerCommandController::class;
+
         \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
             'Appsapp.Appsapp',
             'Appsapp',

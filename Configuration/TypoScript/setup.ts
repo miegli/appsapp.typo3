@@ -57,3 +57,4 @@ plugin.tx_appsapp._CSS_DEFAULT_STYLE (
         color:green;
     }
 )
+

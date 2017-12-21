@@ -1,0 +1,7 @@
+
+page.includeJS {
+
+    appsapp = EXT:appsapp/Resources/Public/js/appsapp.js
+    appsapp.type = application/x-javascript
+
+}

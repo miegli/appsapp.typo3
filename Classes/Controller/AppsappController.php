@@ -32,6 +32,8 @@ class AppsappController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControll
      */
     public function listAction()
     {
+        $GLOBALS['TSFE']->set_no_cache();
+        echo time();
         $appsapps = $this->appsappRepository->findAll();
         $this->view->assign('appsapps', $appsapps);
     }
