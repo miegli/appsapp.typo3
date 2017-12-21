@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-12-21T14:45:43Z" product-name="appsapp">
+		<header/>
+		<body>
+			<trans-unit id="tx_appsapp_domain_model_appsapp">
+				<source>Appsapp</source>
+			</trans-unit>
+			<trans-unit id="tx_appsapp_domain_model_appsapp.name">
+				<source>Name</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,19 @@
+{
+    "name": "appsapp/appsapp",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "authors": [
+        {
+            "name": "Michael Egli",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Appsapp\\Appsapp\\": "Classes"
+        }
+    }
+}
