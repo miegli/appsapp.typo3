@@ -1,7 +1,12 @@
 
-page.includeJS {
+page.includeJSFooter {
 
-    appsapp = EXT:appsapp/Resources/Public/js/appsapp.js
-    appsapp.type = application/x-javascript
+    appsappBundle = EXT:appsapp/Resources/Public/dist/inline.bundle.js
+    appsappPolyfills= EXT:appsapp/Resources/Public/dist/polyfills.bundle.js
+    appsappStyles = EXT:appsapp/Resources/Public/dist/styles.bundle.js
+    appsappVendor = EXT:appsapp/Resources/Public/dist/vendor.bundle.js
+    appsappMain = EXT:appsapp/Resources/Public/dist/main.bundle.js
+
 
 }
+
