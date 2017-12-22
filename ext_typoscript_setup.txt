@@ -10,3 +10,8 @@ page.includeJSFooter {
 
 }
 
+
+page.includeCSSLibs {
+    mobiscroll = EXT:appsapp/Resources/Public/mobiscroll/css/mobiscroll.min.css
+}
+

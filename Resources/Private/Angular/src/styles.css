@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+.mbsc-material.mbsc-form {
+    background-color: transparent;
+}
+.mbsc-material .mbsc-input, .mbsc-material .mbsc-stepper-cont {
+    padding-left:0;
+    padding-right:0;
+}

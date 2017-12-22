@@ -19,6 +19,7 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "../node_modules/@mobiscroll/angular/dist/css/mobiscroll.min.css",
         "styles.css"
       ],
       "scripts": [],
