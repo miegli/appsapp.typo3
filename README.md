@@ -38,11 +38,11 @@ git clone https://github.com/miegli/appsapp.typo3.git
 
 ### After successful installation
 
-For displaying your appsApp / angular components just insert the  html markup represented by one of the components selectors in one of yours typo3 fluid templates. "<app-mytest></app-mytest>" as a working example.
+For displaying your appsApp / angular components just insert the  html markup represented by one of the components selectors in one of yours typo3 fluid templates. ```<app-mytest></app-mytest>``` as a working example.
 
 #  Development
 
-You find the typescript sources in ````./Resources/Private/Angular/src````. Feel free to edit all the files.
+You find the typescript sources in ````./Resources/Private/Angular/src/app````. Feel free to edit all the files.
 
 ## Code scaffolding
 
